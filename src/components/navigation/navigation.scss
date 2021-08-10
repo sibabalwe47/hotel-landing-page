@@ -1,0 +1,17 @@
+nav {
+    width: #fff;
+    background-color: #fff;
+    padding: 15px;
+
+    ul{
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+
+        li{
+            &.button-wrapper {
+                margin-left: 15px;
+            }
+        }
+    }
+}

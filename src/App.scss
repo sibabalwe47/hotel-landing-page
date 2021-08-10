@@ -1,0 +1,23 @@
+/* Imports */
+
+@import "./components/navigation/navigation.scss";
+@import "./components/button/button.scss";
+@import "./components/hero/hero.scss";
+@import "./components/overlay/overlay.scss";
+@import "./components/forms/rooms/SearchRooms.scss";
+
+/*** Globals ***/
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
