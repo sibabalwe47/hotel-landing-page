@@ -2,13 +2,17 @@ import './App.scss';
 import LandingPage from './views/LandingPage'
 import Navigation from './components/navigation/navigation'
 import { Fragment } from 'react';
+import {Provider} from 'react-redux'
+import store from './store/store'
 
 function App() {
   return (
-    <Fragment>
-      <Navigation />
-      <LandingPage />
-    </Fragment>
+   <Provider store={store}>
+      <Fragment>
+        <Navigation />
+        <LandingPage />
+      </Fragment>
+   </Provider>
   )
 }
 
