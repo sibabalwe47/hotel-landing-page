@@ -1,22 +1,27 @@
 import * as SEARCH_ACTIONS from '../actions/search/types';
 
-
-export const searchReducer  = (state = {
+const initialState = {
     loading: false,
-    search: {},
+    search: {
+        location: "",
+        to: "",
+        from: "",
+        guests: 0
+    },
     results: []
-}, action) => {
+};
+
+
+export const searchReducer  = (state = initialState, action) => {
     const { type, payload } = action;
     switch(type) {
 
         case SEARCH_ACTIONS.SET_SEARCH_VALUE:
-
-            const query = {}
-            query[payload.key] = payload.value;
-
+            // Update object properties
+            state.search[payload.key] = payload.value;
             return {
                 ...state,
-                search: {...state.search, query}
+                search: state.search
             }
 
         default: 
