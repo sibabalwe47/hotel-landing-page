@@ -5,6 +5,7 @@ import About from '../components/section/subsections/about'
 import ImageSection from '../components/section/subsections/Image';
 import Rooms from '../components/rooms/index'
 import Testimonials from '../components/testimonials';
+import Footer from '../components/footer/footer';
 
 
 const LandingPage = () => {
@@ -34,7 +35,7 @@ const LandingPage = () => {
             <Section className="newsletter">
 
             </Section>
-            <Section></Section>
+            <Footer />
         </div>
     )
 }
