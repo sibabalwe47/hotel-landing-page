@@ -40,22 +40,22 @@ const Footer = () => {
                         <h4>Follow Us</h4>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="#" className="instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" className="twitter">
                                 <i class="fab fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" className="linkedin">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" className="facebook">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </li>

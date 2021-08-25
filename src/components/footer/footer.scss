@@ -1,0 +1,44 @@
+footer {
+    ul{
+       display: flex;
+       flex-direction: column; 
+
+       
+    }
+
+    .social-links ul {
+        flex-direction: row;
+
+        li {
+            a{
+                display: flex;
+                width: 35px;
+                height: 35px;
+                background-color: #f5f5f5;
+                margin-right: 15px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                color: #fff;
+                text-decoration: none;
+
+                &.instagram {
+                    background-color: #E1306C ;
+                }
+
+                
+                &.twitter {
+                    background-color: #1DA1F2 ;
+                }
+
+                &.facebook {
+                    background-color: #4267B2 ;
+                }
+
+                &.linkedin {
+                    background-color: #2867B2 ;
+                }
+            }
+        }
+    }
+}
