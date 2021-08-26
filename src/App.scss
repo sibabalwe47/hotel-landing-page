@@ -8,6 +8,7 @@
 @import "./components/section/section.scss";
 @import "./components/rooms/room/room.scss";
 @import "./components/footer/footer.scss";
+@import "./components/testimonials/testimonial/testimonial.scss";
 
 /*** Globals ***/
 
@@ -15,6 +16,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -28,6 +30,19 @@ ul {
 section {
     padding-top: 60px;
     padding-bottom: 100px;
+
+    .section-title {
+        font-weight: 600;
+        text-align: center;
+        font-size: 36px;
+        color: #36454f;
+    }
+
+
+    &.testimonials {
+        padding-top: 120px;
+        padding-bottom: 160px;
+    }
 }
 
 .bg-grey {

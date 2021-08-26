@@ -29,7 +29,7 @@ const LandingPage = () => {
             <Section classes="bg-white" title="Our Packages">
                 <Rooms />
             </Section>
-            <Section title="Our Happy Clients">
+            <Section classes="bg-grey testimonials" title="Our Happy Clients">
                 <Testimonials />
             </Section>
             <Section className="newsletter">

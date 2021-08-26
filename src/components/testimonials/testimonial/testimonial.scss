@@ -1,0 +1,17 @@
+.testimonial {
+    background-color: #fff;
+    padding: 60px 30px;
+    text-align: center;
+    margin-top: 90px;
+    box-shadow: 0 16px 32px 0 rgba(66, 53, 53, 0.05);
+
+    .image {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+        
+        img{
+            border-radius: 50%;
+        }
+    }
+}
