@@ -1,0 +1,68 @@
+[
+    {
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "title": "Exclusive Palace",
+        "ammenities": {
+            "location": "10 ML Richbay St. Uganda",
+            "guests": 2,
+            "num_rooms": 1
+        },
+        "price": 8000,
+        "link": ""
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "title": "White Palace",
+        "ammenities": {
+            "location": "10 ML Richbay St. Uganda",
+            "guests": 2,
+            "num_rooms": 1
+        },
+        "price": 8000,
+        "link": ""
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1445991842772-097fea258e7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        "title": "Luxury Place",
+        "ammenities": {
+            "location": "10 ML Richbay St. Uganda",
+            "guests": 2,
+            "num_rooms": 1
+        },
+        "price": 8000,
+        "link": ""
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1875&q=80",
+        "title": "Gold Star Place",
+        "ammenities": {
+            "location": "10 ML Richbay St. Uganda",
+            "guests": 2,
+            "num_rooms": 1
+        },
+        "price": 8000,
+        "link": ""
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1529290130-4ca3753253ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        "title": "Standard Palace",
+        "ammenities": {
+            "location": "10 ML Richbay St. Uganda",
+            "guests": 2,
+            "num_rooms": 1
+        },
+        "price": 8000,
+        "link": ""
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+        "title": "Charrey Palace",
+        "ammenities": {
+            "location": "10 ML Richbay St. Uganda",
+            "guests": 2,
+            "num_rooms": 1
+        },
+        "price": 8000,
+        "link": ""
+    }
+]

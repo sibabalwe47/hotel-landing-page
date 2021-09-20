@@ -1,16 +1,14 @@
-import react from 'react'
+import react from "react";
 
 const Section = ({ children, classes, title }) => {
-    return (
-        <section className={`${classes}`}>
-            <div className="container">
-                {title && (<div className="section-title">{title}</div>)}
-                <div className="row">
-                    {children}
-                </div>
-            </div>
-        </section>
-    )
-}
+  return (
+    <section className={`${classes}`}>
+      <div className="container">
+        {title && <div className="section-title">{title}</div>}
+        <div className="">{children}</div>
+      </div>
+    </section>
+  );
+};
 
-export default Section; 
+export default Section;

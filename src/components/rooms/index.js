@@ -1,16 +1,13 @@
-import react from 'react'
-import Room from './room/room'
+import react from "react";
+import Room from "./room/room";
+import rooms from "../../data/rooms.json";
 
 const Rooms = () => {
-
-    const data = [1,2,3,4,5,6]
-
-    return (
-        <div className="row">
-            {data && data.map(r => <Room />)}
-        </div>
-    )
-}
-
+  return (
+    <div className="row">
+      {rooms && rooms.map((room) => <Room data={room} />)}
+    </div>
+  );
+};
 
 export default Rooms;

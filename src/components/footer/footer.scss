@@ -1,67 +1,65 @@
 footer {
-    padding-top: 60px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 160px;
+  max-width: 970px;
+  margin: 0 auto;
 
-    h4 {
-        font-size: 16px;
-        font-weight: 700;
-        color: #000;
-        margin-bottom: 20px;
-    }
+  h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+  }
 
-    ul{
-       display: flex;
-       flex-direction: column; 
+  ul {
+    display: flex;
+    flex-direction: column;
 
-       li {
-           a{
-               font-size: 14px;
-               color: #36454f;
-               text-decoration: none;
+    li {
+      a {
+        font-size: 14px;
+        color: #36454f;
+        text-decoration: none;
 
-
-               &:hover {
-                   color: #F08000;
-               }
-
-           }
-       }
-       
-    }
-
-    .social-links ul {
-        flex-direction: row;
-
-        li {
-            a{
-                display: flex;
-                width: 35px;
-                height: 35px;
-                background-color: #f5f5f5;
-                margin-right: 15px;
-                justify-content: center;
-                align-items: center;
-                border-radius: 50%;
-                color: #fff;
-                text-decoration: none;
-
-                &.instagram {
-                    background-color: #E1306C ;
-                }
-
-                
-                &.twitter {
-                    background-color: #1DA1F2 ;
-                }
-
-                &.facebook {
-                    background-color: #4267B2 ;
-                }
-
-                &.linkedin {
-                    background-color: #2867B2 ;
-                }
-            }
+        &:hover {
+          color: #f08000;
         }
+      }
     }
+  }
+
+  .social-links ul {
+    flex-direction: row;
+
+    li {
+      a {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        background-color: #f5f5f5;
+        margin-right: 15px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #fff;
+        text-decoration: none;
+
+        &.instagram {
+          background-color: #e1306c;
+        }
+
+        &.twitter {
+          background-color: #1da1f2;
+        }
+
+        &.facebook {
+          background-color: #4267b2;
+        }
+
+        &.linkedin {
+          background-color: #2867b2;
+        }
+      }
+    }
+  }
 }

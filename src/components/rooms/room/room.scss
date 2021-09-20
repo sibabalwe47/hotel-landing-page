@@ -1,32 +1,35 @@
 .room {
-    margin-bottom: 20px;
-    .room-image {
-        width: 100%;
-        min-height: 260px;
-        background-color: #f5f5f5;
+  margin-bottom: 20px;
+  .room-image {
+    width: 100%;
+    min-height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
 
-        .label {}
+    .label {
     }
-    .room-content {
-        padding: 20px;
-        .room-perks {
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-            margin-bottom: 25px;
-            .perk {
-                i {
-
-                }
-            }
+  }
+  .room-content {
+    padding: 20px;
+    .room-perks {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 25px;
+      .perk {
+        i {
         }
-        .room-price{
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            .price {}
-        }
+      }
     }
-    
+    .room-price {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .price {
+      }
+    }
+  }
 }
