@@ -40,6 +40,68 @@ section {
   background-color: #f5f5f5;
 }
 
+.social-links ul {
+  flex-direction: row;
+  justify-content: center;
+  li {
+    a {
+      display: flex;
+      width: 35px;
+      height: 35px;
+      background-color: rgba(240, 128, 0, 0.1);
+      margin-right: 15px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      color: #fff;
+      text-decoration: none;
+
+      &.instagram {
+        background-color: #e1306c;
+      }
+
+      &.twitter {
+        background-color: #1da1f2;
+      }
+
+      &.facebook {
+        background-color: #4267b2;
+      }
+
+      &.linkedin {
+        background-color: #2867b2;
+      }
+    }
+  }
+
+  .testimonial & {
+    i {
+      color: #f08000;
+    }
+  }
+}
+
+.owl-theme {
+  .owl-dots {
+    display: block !important;
+    margin-top: 50px !important;
+    margin-bottom: -50px;
+    .owl-dot {
+      span {
+        background-color: #f1f1f1;
+      }
+
+      &.active {
+        span {
+          background-color: #f08000 !important;
+        }
+      }
+    }
+    &.disabled {
+    }
+  }
+}
+
 /* Imports */
 
 @import "./components/navigation/navigation.scss";
