@@ -16,12 +16,15 @@ const LandingPage = () => {
   return (
     <div className="wrapper">
       <Hero heroTitle={heroTitle} title={title} />
-      <Section classes="bg-grey">
-        <div className="col-md-7">
-          <ImageSection />
-        </div>
-        <div className="col-md-5">
-          <About />
+      <Section classes="bg-grey about-section">
+        <div className="row">
+          <div className="col-md-6">
+            <ImageSection />
+          </div>
+          <div className="col-md-1"></div>
+          <div className="col-md-4">
+            <About />
+          </div>
         </div>
       </Section>
       <Section classes="bg-white rooms" title="Our Packages">

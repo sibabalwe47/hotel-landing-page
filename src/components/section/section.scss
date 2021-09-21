@@ -5,4 +5,42 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 110%;
+    height: 110%;
+    border: 4px solid #f08000;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.about-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  .about {
+    h3 {
+      font-weight: 600;
+      font-size: 42px;
+      color: #36454f;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 13px 34px;
+      margin-top: 30px;
+    }
+  }
 }
