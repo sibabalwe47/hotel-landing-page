@@ -26,12 +26,19 @@ section {
   }
 
   &.testimonials {
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 160px;
 
     .wrapper {
       max-width: 970px;
       margin: 0 auto;
+    }
+  }
+
+  &.rooms {
+    .section-title {
+      margin-bottom: 120px;
+      margin-top: 60px;
     }
   }
 }
@@ -43,6 +50,7 @@ section {
 .social-links ul {
   flex-direction: row;
   justify-content: center;
+
   li {
     a {
       display: flex;
@@ -72,6 +80,10 @@ section {
         background-color: #2867b2;
       }
     }
+  }
+
+  footer & {
+    margin-left: -20px;
   }
 
   .testimonial & {

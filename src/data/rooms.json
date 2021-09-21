@@ -7,7 +7,7 @@
             "guests": 2,
             "num_rooms": 1
         },
-        "price": 8000,
+        "price": "8,000",
         "link": ""
     },
     {
@@ -18,7 +18,7 @@
             "guests": 2,
             "num_rooms": 1
         },
-        "price": 8000,
+        "price": "8,000",
         "link": ""
     },
     {
@@ -29,7 +29,7 @@
             "guests": 2,
             "num_rooms": 1
         },
-        "price": 8000,
+        "price": "8,000",
         "link": ""
     },
     {
@@ -40,7 +40,7 @@
             "guests": 2,
             "num_rooms": 1
         },
-        "price": 8000,
+        "price": "8,000",
         "link": ""
     },
     {
@@ -51,7 +51,7 @@
             "guests": 2,
             "num_rooms": 1
         },
-        "price": 8000,
+        "price": "8,000",
         "link": ""
     },
     {
@@ -62,7 +62,7 @@
             "guests": 2,
             "num_rooms": 1
         },
-        "price": 8000,
+        "price": "8,000",
         "link": ""
     }
 ]

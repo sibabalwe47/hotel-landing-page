@@ -24,7 +24,7 @@ const LandingPage = () => {
           <About />
         </div>
       </Section>
-      <Section classes="bg-white" title="Our Packages">
+      <Section classes="bg-white rooms" title="Our Packages">
         <Rooms />
       </Section>
       <Section classes="bg-grey testimonials" title="Our Happy Clients">

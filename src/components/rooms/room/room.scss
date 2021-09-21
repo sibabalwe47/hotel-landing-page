@@ -1,5 +1,5 @@
 .room {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   .room-image {
     width: 100%;
     min-height: 260px;
@@ -12,14 +12,28 @@
     }
   }
   .room-content {
-    padding: 20px;
+    padding: 15px;
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: #36454f;
+    }
+
     .room-perks {
       display: flex;
       width: 100%;
       flex-direction: column;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
+      margin-top: 20px;
       .perk {
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 5px;
+        display: inline-block;
         i {
+          margin-right: 10px;
         }
       }
     }
@@ -29,7 +43,16 @@
       align-items: center;
       justify-content: space-between;
       .price {
+        font-size: 20px;
+        margin-bottom: -20px;
+        font-weight: 400;
       }
+    }
+
+    .btn {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 34px;
     }
   }
 }
