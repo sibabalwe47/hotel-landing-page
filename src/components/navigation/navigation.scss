@@ -2,6 +2,12 @@ nav {
   width: #fff;
   background-color: #fff;
   padding: 15px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
 
   ul {
     width: 100%;
@@ -10,7 +16,7 @@ nav {
 
     li {
       &.button-wrapper {
-        margin-left: 15px;
+        margin-left: 30px;
 
         button {
           font-size: 14px;
@@ -23,7 +29,8 @@ nav {
         font-size: 15px;
         font-weight: 400;
         color: #36454f !important;
-        margin-left: 20px;
+        margin-left: 35px;
+        padding: 0 !important;
 
         &.active {
           color: #f08000 !important;
