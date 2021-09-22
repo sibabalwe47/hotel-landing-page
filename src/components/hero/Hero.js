@@ -5,8 +5,10 @@ import SearchRooms from "../forms/rooms/SearchRooms";
 const HeroContent = (heroTitle, title) => (
   <Fragment>
     <div className="hero-content">
-      <h1>{heroTitle && heroTitle}</h1>
-      <p>{title && title}</p>
+      <h1>
+        Hotel that Defines a <br /> New Dimension of Luxury.
+      </h1>
+      <p>Up To 60% Off Book Your Dream Rooms Online Now!</p>
     </div>
     <SearchRooms />
   </Fragment>
