@@ -16,7 +16,7 @@ const LandingPage = () => {
   return (
     <div className="wrapper">
       <Hero heroTitle={heroTitle} title={title} />
-      <Section classes="bg-grey about-section">
+      <Section classes="bg-grey about-section bg-image">
         <div className="row">
           <div className="col-md-6">
             <ImageSection />
@@ -30,7 +30,10 @@ const LandingPage = () => {
       <Section classes="bg-white rooms" title="Our Packages">
         <Rooms />
       </Section>
-      <Section classes="bg-grey testimonials" title="Our Happy Clients">
+      <Section
+        classes="bg-grey testimonials bg-image"
+        title="Our Happy Clients"
+      >
         <Testimonials />
       </Section>
       <Newsletter />
