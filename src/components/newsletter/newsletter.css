@@ -1,0 +1,57 @@
+.newsletter {
+  width: 100%;
+  min-height: 260px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .newsletter .mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 128, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+  .newsletter .form-wrapper {
+    width: 54%;
+    margin: 0 auto; }
+    .newsletter .form-wrapper .aside {
+      color: #fff; }
+      .newsletter .form-wrapper .aside.cta p {
+        margin: 0;
+        font-size: 22px; }
+      .newsletter .form-wrapper .aside.cta h3 {
+        text-transform: uppercase;
+        font-size: 36px; }
+      .newsletter .form-wrapper .aside.form {
+        display: flex;
+        height: 60px;
+        min-width: 212px !important;
+        margin-top: 10px; }
+        .newsletter .form-wrapper .aside.form input,
+        .newsletter .form-wrapper .aside.form button {
+          border: 0; }
+        .newsletter .form-wrapper .aside.form input {
+          height: 100%;
+          padding: 10px;
+          padding-left: 25px;
+          width: 100%;
+          font-size: 14px;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px; }
+        .newsletter .form-wrapper .aside.form button {
+          background-color: #f08000;
+          color: #fff;
+          font-size: 14px;
+          padding: 10px 15px;
+          border-top-right-radius: 3px;
+          border-bottom-right-radius: 3px; }
+  .newsletter .container {
+    height: 100%;
+    display: flex;
+    align-items: center; }
+
+/*# sourceMappingURL=newsletter.css.map */

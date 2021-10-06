@@ -1,0 +1,30 @@
+.testimonial {
+  background-color: #fff;
+  padding: 50px 30px 50px;
+  text-align: center;
+  margin-top: 60px;
+  box-shadow: 0 16px 32px 0 rgba(66, 53, 53, 0.05); }
+  .testimonial .image {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto; }
+    .testimonial .image img {
+      border-radius: 50%; }
+  .testimonial h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px; }
+  .testimonial span {
+    font-weight: 300;
+    font-size: 16px; }
+  .testimonial .ratings {
+    margin-bottom: 10px; }
+    .testimonial .ratings .rate i {
+      font-size: 12px;
+      color: #f08000; }
+  .testimonial .testimony {
+    margin-bottom: 20px; }
+    .testimonial .testimony p {
+      font-weight: 300; }
+
+/*# sourceMappingURL=testimonial.css.map */

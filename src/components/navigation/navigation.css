@@ -1,0 +1,30 @@
+nav {
+  width: #fff;
+  background-color: #fff;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05); }
+  nav ul {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center; }
+    nav ul li.button-wrapper {
+      margin-left: 30px; }
+      nav ul li.button-wrapper button {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 15px; }
+    nav ul li a {
+      font-size: 14px;
+      font-weight: 500;
+      color: #36454f !important;
+      margin-left: 35px;
+      padding: 0 !important; }
+      nav ul li a.active {
+        color: #f08000 !important; }
+
+/*# sourceMappingURL=navigation.css.map */

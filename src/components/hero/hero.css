@@ -1,0 +1,22 @@
+.hero {
+  width: 100%;
+  min-height: 590px;
+  background-color: #f5f5f5;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px; }
+  .hero .hero-content {
+    text-align: center;
+    margin-bottom: 60px; }
+    .hero .hero-content h1 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 52px; }
+    .hero .hero-content p {
+      color: #fff;
+      font-weight: 300;
+      font-size: 20px; }
+
+/*# sourceMappingURL=hero.css.map */

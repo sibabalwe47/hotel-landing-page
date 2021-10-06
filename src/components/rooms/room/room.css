@@ -1,0 +1,44 @@
+.room {
+  margin-bottom: 60px; }
+  .room .room-image {
+    width: 100%;
+    min-height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px; }
+  .room .room-content {
+    padding: 15px; }
+    .room .room-content h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: #36454f; }
+    .room .room-content .room-perks {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 20px;
+      margin-top: 20px; }
+      .room .room-content .room-perks .perk {
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 5px;
+        display: inline-block; }
+        .room .room-content .room-perks .perk i {
+          margin-right: 10px; }
+    .room .room-content .room-price {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .room .room-content .room-price .price {
+        font-size: 20px;
+        margin-bottom: -20px;
+        font-weight: 400; }
+    .room .room-content .btn {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 34px; }
+
+/*# sourceMappingURL=room.css.map */
