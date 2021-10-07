@@ -2,11 +2,11 @@ import react from "react";
 import Button from "../../button/button";
 
 const Room = ({ data }) => {
-  const { image, title, ammenities, price, link } = data;
+  const { image, title, ammenities, price } = data;
 
   return (
     <div className="col-4">
-      <div className="room">
+      <div className="room wow animate__animated animate__fadeIn animate__slow">
         <div
           className="room-image"
           style={{ backgroundImage: `url(${image})` }}

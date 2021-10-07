@@ -6,7 +6,7 @@ const Testimonial = ({ data }) => {
   const { image, name, job, rating, review, social_links } = data;
 
   return (
-    <div className="testimonial">
+    <div className="testimonial wow animate__animated animate__fadeIn animate__slow">
       <div className="client">
         <div className="image">
           <img className="img-fluid" src={`${image}`} alt={`${name} ${job}`} />

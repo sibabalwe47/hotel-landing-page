@@ -4,7 +4,7 @@ import SearchRooms from "../forms/rooms/SearchRooms";
 
 const HeroContent = (heroTitle, title) => (
   <Fragment>
-    <div className="hero-content">
+    <div className="hero-content wow bounceInUp animate__animated animate__fadeIn animate__slow">
       <h1>
         Hotel that Defines a <br /> New Dimension of Luxury.
       </h1>

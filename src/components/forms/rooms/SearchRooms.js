@@ -33,7 +33,7 @@ const SearchRooms = () => {
   };
 
   return (
-    <div className="search-rooms">
+    <div className="search-rooms animate__animated animate__fadeIn animate__slow">
       <div className="row">
         <div className="col-md-10">
           <div className="row">

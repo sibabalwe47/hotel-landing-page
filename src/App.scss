@@ -1,203 +1,215 @@
-// /*** Globals ***/
+/*** Globals ***/
 
-// body {
-//   margin: 0;
-//   padding: 0;
-//   font-family: "Poppins", sans-serif;
-//   overflow-x: hidden;
-// }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
 
-// .container {
-//   max-width: 1140px;
-//   margin: 0 auto;
-//   width: 100%;
-// }
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
 
-// ul {
-//   padding: 0;
+ul {
+  padding: 0;
 
-//   margin: 0;
-//   list-style: none;
-//   display: flex;
-// }
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
 
-// section {
-//   padding-top: 60px;
-//   padding-bottom: 100px;
+section {
+  padding-top: 60px;
+  padding-bottom: 100px;
 
-//   .section-title {
-//     font-weight: 600;
-//     text-align: center;
-//     font-size: 36px;
-//     color: #36454f;
-//   }
+  .section-title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 36px;
+    color: #36454f;
+  }
 
-//   &.about-section {
-//     position: relative;
+  &.about-section {
+    position: relative;
 
-//     &.bg-image {
-//       position: relative;
-//       &::after {
-//         content: "";
-//         width: 400px;
-//         height: 400px;
-//         background-image: url("./assets/circular_light.png");
-//         background-repeat: no-repeat;
-//         position: absolute;
-//         z-index: 99;
-//         top: 100%;
-//         right: -15%;
-//         transform: translateY(-50%);
-//         overflow-x: hidden;
-//       }
+    &.bg-image {
+      position: relative;
+      &::after {
+        content: "";
+        width: 400px;
+        height: 400px;
+        background-image: url("./assets/circular_light.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 99;
+        top: 100%;
+        right: -15%;
+        transform: translateY(-50%);
+        overflow-x: hidden;
+      }
 
-//       &::before {
-//         content: "";
-//         width: 400px;
-//         height: 400px;
-//         background-image: url("./assets/circular_light.png");
-//         background-repeat: no-repeat;
-//         position: absolute;
-//         top: 75%;
-//         right: -15%;
-//         z-index: 99;
-//         transform: translateY(-50%);
-//         overflow-x: hidden;
-//       }
-//     }
-//   }
+      &::before {
+        content: "";
+        width: 400px;
+        height: 400px;
+        background-image: url("./assets/circular_light.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 75%;
+        right: -15%;
+        z-index: 99;
+        transform: translateY(-50%);
+        overflow-x: hidden;
+      }
+    }
+  }
 
-//   &.testimonials {
-//     padding-top: 100px;
-//     padding-bottom: 160px;
+  &.testimonials {
+    padding-top: 100px;
+    padding-bottom: 160px;
 
-//     &.bg-image {
-//       position: relative;
-//       &::after {
-//         content: "";
-//         width: 400px;
-//         height: 400px;
-//         background-image: url("./assets/circular.png");
-//         background-repeat: no-repeat;
-//         position: absolute;
-//         top: 0;
-//         z-index: 99;
-//         top: 50%;
-//         right: -10%;
-//         transform: translateY(-50%);
-//         overflow-x: hidden;
-//       }
+    &.bg-image {
+      position: relative;
+      &::after {
+        content: "";
+        width: 400px;
+        height: 400px;
+        background-image: url("./assets/circular.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        top: 50%;
+        right: -10%;
+        transform: translateY(-50%);
+        overflow-x: hidden;
+      }
 
-//       &::before {
-//         content: "";
-//         width: 400px;
-//         height: 400px;
-//         background-image: url("./assets/circular.png");
-//         background-repeat: no-repeat;
-//         position: absolute;
-//         top: 0;
-//         z-index: 99;
-//         top: 0;
-//         left: -15%;
-//         transform: translateY(-50%);
-//         overflow-x: hidden;
-//       }
-//     }
+      &::before {
+        content: "";
+        width: 400px;
+        height: 400px;
+        background-image: url("./assets/circular.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        top: 0;
+        left: -15%;
+        transform: translateY(-50%);
+        overflow-x: hidden;
+      }
+    }
 
-//     .wrapper {
-//       max-width: 970px;
-//       margin: 0 auto;
-//     }
-//   }
+    .wrapper {
+      max-width: 970px;
+      margin: 0 auto;
+    }
+  }
 
-//   &.rooms {
-//     .section-title {
-//       margin-bottom: 120px;
-//       margin-top: 60px;
-//     }
-//   }
-// }
+  &.rooms {
+    .section-title {
+      margin-bottom: 120px;
+      margin-top: 60px;
+    }
+  }
+}
 
-// .bg-grey {
-//   background-color: #f5f5f5;
-// }
+.bg-grey {
+  background-color: #f5f5f5;
+}
 
-// .social-links ul {
-//   flex-direction: row;
-//   justify-content: center;
+.social-links ul {
+  flex-direction: row;
+  justify-content: center;
 
-//   li {
-//     a {
-//       display: flex;
-//       width: 35px;
-//       height: 35px;
-//       background-color: rgba(240, 128, 0, 0.1);
-//       margin-right: 15px;
-//       justify-content: center;
-//       align-items: center;
-//       border-radius: 50%;
-//       color: #fff;
-//       text-decoration: none;
+  li {
+    a {
+      display: flex;
+      width: 35px;
+      height: 35px;
+      background-color: rgba(240, 128, 0, 0.1);
+      margin-right: 15px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      color: #fff;
+      text-decoration: none;
 
-//       &.instagram {
-//         background-color: #e1306c;
-//       }
+      &.instagram {
+        background-color: #e1306c;
+      }
 
-//       &.twitter {
-//         background-color: #1da1f2;
-//       }
+      &.twitter {
+        background-color: #1da1f2;
+      }
 
-//       &.facebook {
-//         background-color: #4267b2;
-//       }
+      &.facebook {
+        background-color: #4267b2;
+      }
 
-//       &.linkedin {
-//         background-color: #2867b2;
-//       }
-//     }
-//   }
+      &.linkedin {
+        background-color: #2867b2;
+      }
+    }
+  }
 
-//   footer & {
-//     margin-left: -20px;
-//   }
+  footer & {
+    margin-left: -20px;
+  }
 
-//   .testimonial & {
-//     i {
-//       color: #f08000;
-//     }
-//   }
-// }
+  .testimonial & {
+    i {
+      color: #f08000;
+    }
+  }
+}
 
-// .owl-theme {
-//   .owl-dots {
-//     display: block !important;
-//     margin-top: 50px !important;
-//     margin-bottom: -50px;
-//     .owl-dot {
-//       span {
-//         background-color: #f1f1f1;
-//       }
+.owl-theme {
+  .owl-dots {
+    display: block !important;
+    margin-top: 50px !important;
+    margin-bottom: -50px;
+    .owl-dot {
+      span {
+        background-color: #f1f1f1;
+      }
 
-//       &.active {
-//         span {
-//           background-color: #f08000 !important;
-//         }
-//       }
-//     }
-//     &.disabled {
-//     }
-//   }
-// }
+      &.active {
+        span {
+          background-color: #f08000 !important;
+        }
+      }
+    }
+    &.disabled {
+    }
+  }
+}
 
-// /* Imports */
+.btn {
+  background-color: #f08000;
+  color: #fff;
+  border: 1px solid #f08000;
 
-// @import "./components/navigation/navigation.scss";
-// @import "./components/button/button.scss";
-// @import "./components/hero/hero.scss";
-// @import "./components/overlay/overlay.scss";
-// @import "./components/forms/rooms/SearchRooms.scss";
-// @import "./components/section/section.scss";
-// @import "./components/rooms/room/room.scss";
-// @import "./components/footer/footer.scss";
-// @import "./components/testimonials/testimonial/testimonial.scss";
-// @import "./components/newsletter/newsletter.scss";
+  &:hover {
+    border: 1px solid #f08000;
+    background-color: #fff;
+    color: #f08000;
+  }
+}
+
+/* Imports */
+
+@import "./components/navigation/navigation.scss";
+@import "./components/button/button.scss";
+@import "./components/hero/hero.scss";
+@import "./components/overlay/overlay.scss";
+@import "./components/forms/rooms/SearchRooms.scss";
+@import "./components/section/section.scss";
+@import "./components/rooms/room/room.scss";
+@import "./components/footer/footer.scss";
+@import "./components/testimonials/testimonial/testimonial.scss";
+@import "./components/newsletter/newsletter.scss";

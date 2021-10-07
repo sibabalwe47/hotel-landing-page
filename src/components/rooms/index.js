@@ -5,7 +5,7 @@ import rooms from "../../data/rooms.json";
 const Rooms = () => {
   return (
     <div className="row">
-      {rooms && rooms.map((room) => <Room data={room} />)}
+      {rooms && rooms.map((room) => <Room key={room.id} data={room} />)}
     </div>
   );
 };

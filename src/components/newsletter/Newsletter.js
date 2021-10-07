@@ -4,7 +4,7 @@ import image from "../../assets/newsletter.jpg";
 const Newsletter = () => {
   return (
     <div
-      className="newsletter"
+      className="newsletter wow animate__animated animate__fadeIn animate__slow"
       style={{
         backgroundImage: `url(${image})`,
       }}

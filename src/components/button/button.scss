@@ -1,4 +1,11 @@
 .btn {
-    background-color: #F08000;
-    color: #fff;
+  background-color: #f08000;
+  color: #fff;
+  border: 1px solid #f08000;
+
+  &:hover {
+    border: 1px solid #f08000;
+    background-color: #fff;
+    color: #f08000;
+  }
 }

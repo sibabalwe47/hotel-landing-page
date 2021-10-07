@@ -4,7 +4,7 @@ import Button from "../../button/button";
 const About = () => {
   return (
     <Fragment>
-      <div className="about">
+      <div className="about wow animate__animated animate__fadeIn animate__slow">
         <h3>About Us</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

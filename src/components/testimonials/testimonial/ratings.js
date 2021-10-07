@@ -3,7 +3,7 @@ import react, { Fragment } from "react";
 const Ratings = ({ rating }) => {
   const ratings = [];
 
-  if (rating && rating != undefined) {
+  if (rating && rating !== undefined) {
     for (var i = 0; i < rating; i++) {
       ratings.push(i);
     }

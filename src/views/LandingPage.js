@@ -27,11 +27,14 @@ const LandingPage = () => {
           </div>
         </div>
       </Section>
-      <Section classes="bg-white rooms" title="Our Packages">
+      <Section
+        classes="bg-white rooms wow animate__animated animate__fadeIn animate__slow"
+        title="Our Packages"
+      >
         <Rooms />
       </Section>
       <Section
-        classes="bg-grey testimonials bg-image"
+        classes="bg-grey testimonials bg-image wow animate__animated animate__fadeIn animate__slow"
         title="Our Happy Clients"
       >
         <Testimonials />
