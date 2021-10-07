@@ -8,43 +8,49 @@ const Footer = () => {
           <div className="col-md-12">
             <div className="row">
               <div className="col-md-3">
-                <h4>Company</h4>
-                <ul>
-                  <li>
-                    <a href="">About Us</a>
-                  </li>
-                  <li>
-                    <a href="">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="">Careers</a>
-                  </li>
-                </ul>
+                <div className="links">
+                  <h4>Company</h4>
+                  <ul>
+                    <li>
+                      <a href="">About Us</a>
+                    </li>
+                    <li>
+                      <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                      <a href="">Careers</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div className="col-md-3">
-                <h4>More Information</h4>
-                <ul>
-                  <li>
-                    <a href="">Terms & Conditions</a>
-                  </li>
-                  <li>
-                    <a href="">Privacy Policy</a>
-                  </li>
-                </ul>
+                <div className="links">
+                  <h4>More Information</h4>
+                  <ul>
+                    <li>
+                      <a href="">Terms & Conditions</a>
+                    </li>
+                    <li>
+                      <a href="">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div className="col-md-3">
-                <h4>Customers</h4>
-                <ul>
-                  <li>
-                    <a href="">Rooms</a>
-                  </li>
-                  <li>
-                    <a href="">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="">Newsletters</a>
-                  </li>
-                </ul>
+                <div className="links">
+                  <h4>Customers</h4>
+                  <ul>
+                    <li>
+                      <a href="">Rooms</a>
+                    </li>
+                    <li>
+                      <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                      <a href="">Newsletters</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div className="col-md-3">
                 <div className="social-links">

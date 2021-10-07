@@ -1,3 +1,5 @@
+@import "../sass/utilities.scss";
+
 .newsletter {
   width: 100%;
   min-height: 260px;
@@ -22,6 +24,10 @@
     width: 54%;
     margin: 0 auto;
 
+    @include breakpoint(mobile) {
+      width: 100% !important;
+    }
+
     .aside {
       color: #fff;
       &.cta {
@@ -42,6 +48,10 @@
         min-width: 212px !important;
         margin-top: 10px;
 
+        @include breakpoint(mobile) {
+          height: 50px !important;
+        }
+
         input,
         button {
           border: 0;
@@ -55,6 +65,10 @@
           font-size: 14px;
           border-top-left-radius: 3px;
           border-bottom-left-radius: 3px;
+
+          @include breakpoint(mobile) {
+            width: 60% !important;
+          }
         }
 
         button {

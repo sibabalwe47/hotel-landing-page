@@ -1,8 +1,20 @@
+/* @include box-shadow(1px,1px,1px,0, #fff, true); */
 footer {
   padding-top: 100px;
   padding-bottom: 160px;
   max-width: 970px;
   margin: 0 auto; }
+  @media (max-width: 767px) {
+    footer {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+      footer .links {
+        margin-bottom: 30px; }
+        footer .links h4 {
+          margin-bottom: 10px;
+          font-size: 14px; }
+        footer .links ul li a {
+          font-size: 14px; } }
   footer h4 {
     font-size: 16px;
     font-weight: 700;

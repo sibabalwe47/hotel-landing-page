@@ -9,7 +9,24 @@ const Testimonials = () => {
   return (
     <div className="wrapper">
       <div className="row">
-        <OwlCarousel dots items={2} className="owl-theme" loop margin={30}>
+        <OwlCarousel
+          dots
+          items={2}
+          className="owl-theme"
+          loop
+          margin={30}
+          responsive={{
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 5,
+            },
+          }}
+        >
           {reviews && reviews.map((review) => <Testimonial data={review} />)}
         </OwlCarousel>
       </div>
